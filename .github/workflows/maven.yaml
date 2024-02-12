@@ -48,8 +48,6 @@ jobs:
           namespace: 'david-learn'
           scan_summary_output_type: 'table'
           pr: true
-          log_verbose: true
-          log_level: debug
           scan_secrets: true
           scan_dependencies: true
           enable_github_action_token: true
