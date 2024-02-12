@@ -51,7 +51,7 @@ jobs:
           scan_secrets: true
           scan_dependencies: true
           enable_github_action_token: true
-          enable_pr_comments: ${{ env.ENDORCTL_PR }}
+          enable_pr_comments: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Endor Labs Release Scan
