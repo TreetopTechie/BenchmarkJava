@@ -50,7 +50,6 @@ jobs:
           pr: true
           scan_secrets: true
           scan_dependencies: true
-          enable_github_action_token: true
           enable_pr_comments: ${{ env.ENDORCTL_PR }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -63,7 +62,6 @@ jobs:
           pr: false
           scan_secrets: true
           scan_dependencies: true
-          enable_github_action_token: true
           sarif_file: 'findings.sarif'
 
     - name: Upload findings to github
