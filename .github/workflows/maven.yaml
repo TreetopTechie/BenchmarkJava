@@ -62,6 +62,8 @@ jobs:
           scan_summary_output_type: 'table'
           pr: false
           scan_secrets: true
+          scan_github_actions: true
+          scan_tools: true
           scan_dependencies: true
           sarif_file: 'findings.sarif'
 
