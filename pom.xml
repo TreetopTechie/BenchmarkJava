@@ -1210,7 +1210,6 @@
         <project.java.target>1.8</project.java.target>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.war.webxml>${basedir}/src/config/web.xml</maven.war.webxml>
-        <!-- runenv defaults to local here. But scripts can set this to 'remote' to launch remotely accessible Benchmark. e.g., mvn clean package cargo:run -Pdeploy1.2 -Drunenv=remote -->
         <runenv>local</runenv>
         <tomcat.jvmargs>
             -Xms1G
